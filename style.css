@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(175, 197, 241);
+}
+
+div#Container {
+    margin: 40px;
+    width: 252px;
+    
+}
+
+h3{
+    margin-top: 20px;
+}
+
+p {
+    margin: auto;
+    width: 252px;
+    position: relative;
+    font-size: 15pt;
+}
+
+img {
+    width: 1.0%;
+    position: relative;
+    margin: 5px;
+    border: 2px solid rgb(47, 42, 191);
+    box-shadow: 2px 2px 2px rgb(18, 27, 120);
+    background: rgb(249, 248, 250);
+}
+
+div#tabuleiro {
+    margin: auto;
+    margin-top: 40px;
+    width: 352px;
+    height: 352px;
+    box-shadow: 6px 6px 6px rgb(14, 20, 170);
+}
+
+div.espaco {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(33, 75, 174);
+    float: left;
+}
+
+.imgdentro {
+    width: 80%;
+    text-align: center;
+}
+
+div#vencedor {
+    margin: auto;
+    display: flex;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+    color: rgb(3, 19, 58);
+    opacity: 1;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+    background: rgb(57, 144, 184);
+}
+
+div#vencedor:hover {
+    background: rgb(133, 153, 167);
+}
+
+button {
+    margin: auto;
+    width: 120px;
+    margin-top: 8px;
+    box-shadow: 2px 2px 2px black;
+    transition: 1s;
+    background: rgb(56, 122, 237);
+}
+
+button:hover {
+    background: rgb(115, 141, 219);
+}
+
+button a {
+    color: rgb(32, 9, 125);
+    opacity: 1;
+}
+
+footer {
+    margin: auto;
+    width: 252px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px rgb(20, 57, 203);
+    transition: 1s;
+}
+
+footer:hover {
+    background: rgb(237, 238, 243);
+    color:rgb(3, 19, 58);
+}
+
+a {
+    opacity: 50%;
+    transition: 1s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    opacity: 1;
+}
